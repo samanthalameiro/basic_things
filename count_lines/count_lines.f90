@@ -3,7 +3,7 @@ program count_lines !E colunas;
     integer, parameter :: max_col = 30
     integer :: m, n, j, stat
     !Vetor (x) com 30 espaços ou componenetes;
-    !Em cadaespaço cabe um conjunto de characters com até 5 characteres, podendo ser uma palavra ou characteres randômicas "coladas"; 
+    !Em cada espaço cabe um conjunto de characters com até 5 characteres, podendo ser uma palavra ou characteres randômicas "coladas"; 
     character (len = 5), dimension(1, max_col) :: x
 
         open(50, file = "random_file.dat")
